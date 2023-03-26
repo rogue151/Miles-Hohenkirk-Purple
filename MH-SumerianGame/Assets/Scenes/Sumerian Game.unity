@@ -190,6 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730047c1a58cf444590a2b7c7fc7ebed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameText: {fileID: 1271728824}
+  yearText: {fileID: 2068298320}
+  highestPopText: {fileID: 416273348}
 --- !u!1 &195998096
 GameObject:
   m_ObjectHideFlags: 0
