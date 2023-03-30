@@ -507,6 +507,7 @@ GameObject:
   - component: {fileID: 2037013820}
   - component: {fileID: 2037013819}
   - component: {fileID: 2037013821}
+  - component: {fileID: 2037013822}
   m_Layer: 0
   m_Name: Paddle2
   m_TagString: Untagged
@@ -607,3 +608,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2037013822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037013818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0f4dee21c4da14cb0e2e8cbe9875af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
