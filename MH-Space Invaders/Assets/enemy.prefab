@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6911582416928864422}
   - component: {fileID: 6406085249084230755}
   m_Layer: 8
-  m_Name: enemyPrefab
+  m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,7 +120,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -142,7 +142,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0020012558, y: -0.0040025786}
+  m_Offset: {x: -0.011966169, y: -0.0023932606}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +153,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6998057, y: 0.5036787}
+  m_Size: {x: 0.74631655, y: 0.55485725}
   m_EdgeRadius: 0
 --- !u!114 &6406085249084230755
 MonoBehaviour:
@@ -167,4 +167,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e709d66cd7fae8545a7a4e237636b290, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObject1: {fileID: 374922888828162646, guid: 29510217c5e72e04791ba341f4a59c02, type: 3}
+  speed: 0.5
