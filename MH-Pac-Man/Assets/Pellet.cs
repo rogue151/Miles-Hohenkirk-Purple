@@ -12,8 +12,9 @@ public class Pellet : MonoBehaviour
         }
     }
 
-    protected virtual void Eat()
+    protected virtual void Eat() //function
     {
         gameObject.SetActive(false);
+
     }
 }
